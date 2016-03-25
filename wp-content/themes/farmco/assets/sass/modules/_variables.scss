@@ -1,0 +1,60 @@
+//colors
+$my-black:rgb(5,5,5);
+$dark-grey:rgb(15,15,15);
+$grey: rgb(20,20,20);
+$light-grey: rgb(50,50,50);
+$lighter-grey: rgb(80,80,80);
+
+// $red:rgb(80,80,80);
+// $light-red:rgb(160,160,160);
+
+$blue:rgb(80,80,255);
+$light-blue:rgb(100,100,255);
+
+$mid-white: rgb(225,225,225);
+$off-white: rgb(245,245,245);
+$off-white-darker:rgb(220,220,220);
+
+// nav variables
+	$nav-color: rgb(5,5,5);
+	$nav-color-hover: rgb(25,25,25);
+	$nav-color-active: rgb(35,35,35);
+	$navbar-background-color: transparent;
+
+// 	background color
+	$background-color:rgb(250,250,250);
+	// $background-color-red: $red;
+	$background-color-blue: $blue;
+
+// 	base colors 
+	$body-color: $my-black;
+	$body-color-hover:$dark-grey;
+	$body-color-active:$grey;
+	$title-color:$my-black;
+	$title-color-hover:$dark-grey;
+	$title-color-active:$grey;
+	$section-title-color:$my-black;
+	$section-title-color-hover:$dark-grey;
+	$section-title-color-active:$grey;
+	
+	$alt-body-color: $light-grey;
+	$alt-body-color-hover: $grey;
+	$alt-body-color-active: $grey;
+	$alt-title-color: $light-grey;
+	$alt-title-color-hover: $grey;
+	$alt-title-color-active: $grey;
+	$alt-section-title-color: $light-grey;
+	$alt-section-title-color-hover: $grey;
+	$alt-section-title-color-active: $grey;
+
+
+// fonts
+//	sizes
+	$large-font:2.1428em;
+	$medium-font:1.7142em;
+	$normal-P-font:1.2857em;
+	$normal-font: 1.1428em;
+
+//	family
+	$normal-font-family:'Raleway', sans-serif;
+	$accent-font-family:'Ubuntu', sans-serif;

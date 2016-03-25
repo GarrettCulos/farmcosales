@@ -1,0 +1,34 @@
+.home {
+	#farmco-home {
+		margin-top:50px;
+		.farmco-home-links{
+			background-color:$background-color;
+			padding-top:30px;
+			.links-left {
+				li {
+					list-style-type: none;
+					padding:4px 0;
+					a {
+						line-height:2em;
+						@include m-body-font;
+					}
+				}
+			}
+		}
+	}
+
+	background-color:$background-color;
+	color:$body-color;
+	h2{
+		@include m-title-font;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.home {
+		ul{
+			padding-left:0px;
+		}
+	}
+}

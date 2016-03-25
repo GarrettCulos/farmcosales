@@ -1,0 +1,44 @@
+#single-equipment {
+	background-color:$lighter-grey;
+	background-size:cover;
+	background-repeat: no-repeat;
+
+	padding: 15px;
+	margin-top:50px;
+
+	.post-container {
+		.entry-content{
+			@include m-body-font;
+			background-color:$background-color;
+			padding:15px;
+			margin-top:15px;
+			margin-bottom:15px;
+
+			h3{
+				text-transform: uppercase;
+				font-size:1.2em;
+			}	
+
+			h2,
+			h3 {
+				@include m-body-font;
+				padding:0;
+				margin-bottom:10px;
+				margin-right:20px;
+				display:inline-block;
+			}
+
+			p {
+				display:block;
+			}
+
+			img {
+				width:100%;
+			}
+
+		}
+	}	
+	.post-container-top {
+		margin-right:30px;
+	}
+}
