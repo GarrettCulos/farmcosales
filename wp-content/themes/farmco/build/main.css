@@ -8802,6 +8802,12 @@ button.close {
   min-height: 100%;
 }
 
+/* line 11, ../assets/sass/partials/_helpers.scss */
+html,
+body {
+  height: 100%;
+}
+
 /* line 1, ../assets/sass/partials/_index.scss */
 body {
   background-color: #fafafa;

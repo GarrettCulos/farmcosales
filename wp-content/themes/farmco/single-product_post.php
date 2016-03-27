@@ -15,7 +15,7 @@ $equipment_permalink 	= get_permalink( get_page_by_path('Equipment') );
 ?>
 
 <div class="fluid-container">
-	<img src="<?php echo $background['url'] ?>" id="bg" alt="" style="background-color:#505050">
+	<img src="<?php echo $background['url'] ?>" id="bg" alt="">
 	<div id="single-equipment">
 		<a href="<?php echo get_permalink( get_page_by_path('Equipment') );?>">
 			<div class="post-container post-container-top">
@@ -53,7 +53,7 @@ $equipment_permalink 	= get_permalink( get_page_by_path('Equipment') );
 							<?php if($image): ?>
 								<div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
 									<div class="entry-content">
-										<img src="<?php echo $image ?>" alt="">
+										<img src="<?php echo $image['url'] ?>" alt="">
 									</div>
 								</div>
 							<?php endif;?>

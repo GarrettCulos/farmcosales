@@ -34,7 +34,7 @@ $background = get_field('img');
 							</div>
 							<div class="col-sm-6">
 								<div class="entry-content">
-									<img src="<?php echo $post_meta['main_image'] ; ?>" alt="">
+									<img src="<?php echo $post_meta['main_image']['url'] ; ?>" alt="">
 								</div>
 							</div>
 						</div>

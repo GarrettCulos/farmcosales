@@ -18,7 +18,7 @@ $.support.transition = false;
 	$(window).load(function() {    
 
 	    var windowHeight = $(window).height()-50;
-		$('#single-equipment').css({"height":  windowHeight});
+		$('#single-equipment').parent('html').css({"color": '#050505' });
 	});
 	
 	$('bs-navbar-collapse').collapse({

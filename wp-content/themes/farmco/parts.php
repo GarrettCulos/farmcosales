@@ -16,7 +16,7 @@
 	<div id="parts">
 		<div class="container">
 			<div class="row">
-				<iframe src="http://partstore.agriculture.newholland.com/us/parts-search.html#epc::home" style="width:1010px; height:800px;"></iframe>
+				<iframe src="http://partstore.agriculture.newholland.com/us/parts-search.html#epc::home" style="width:100%; height:800px;"></iframe>
 			</div>	
 		</div>
 	</div>
