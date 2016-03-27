@@ -25,14 +25,14 @@ $contact_permalink 		= get_permalink( get_page_by_path('Contact') );
 				</div>
 			  	<div class="nav-container">
 				    <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-					 	<ul  class="nav navbar-nav hidden-xs">
-							<li class="active "><a href="<?php echo $home_permalink  ?>">Farmco</a></li>
+					 	<ul class="nav navbar-nav hidden-xs">
+							<li  role="presentation" class=" "><a href="<?php echo $home_permalink  ?>">Farmco</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="active visible-xs"><a href="<?php echo $home_permalink ?>">Home</a></li>
-							<li><a href="<?php echo $parts_permalink ?>">Parts</a></li>
-							<li><a href="<?php echo $equipment_permalink ?>">Equipment</a></li>
-							<li><a href="<?php echo $contact_permalink ?>">Contact Us</a></li>
+							<li role="presentation" class=" visible-xs"><a href="<?php echo $home_permalink ?>">Home</a></li>
+							<li role="presentation" ><a href="<?php echo $parts_permalink ?>">Parts</a></li>
+							<li role="presentation" ><a href="<?php echo $equipment_permalink ?>">Equipment</a></li>
+							<li role="presentation" ><a href="<?php echo $contact_permalink ?>">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>

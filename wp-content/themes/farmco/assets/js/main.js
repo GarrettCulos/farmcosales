@@ -4,8 +4,9 @@ $.support.transition = false;
 
 	$( document ).ready(function() {
 
-		$(".nav a").on("click", function(){
-			$(".nav").find(".active").removeClass("active");
+		$(".nav li").on("click", function(){
+			// alert('hello');
+			$(".nav li").removeClass("active");
 			$(this).parent().addClass("active");
 		});
 
