@@ -8815,7 +8815,7 @@ body {
 }
 /* line 2, ../assets/sass/partials/_index.scss */
 body #farmco-home {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 /* line 4, ../assets/sass/partials/_index.scss */
 body #farmco-home .farmco-home-links {
@@ -8867,7 +8867,7 @@ body h2:active {
 }
 /* line 1, ../assets/sass/partials/equipment/_equipment.scss */
 #equipment {
-  margin-top: 50px;
+  padding-top: 50px;
   text-align: center;
   padding: 15px;
 }
@@ -8918,7 +8918,7 @@ body h2:active {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 15px;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 /* line 10, ../assets/sass/partials/equipment/_single_equipment.scss */
 #single-equipment .post-container .entry-content {
@@ -8981,7 +8981,7 @@ body h2:active {
 
 /* line 1, ../assets/sass/partials/contact/_contact.scss */
 #contact-us {
-  margin-top: 50px;
+  padding-top: 50px;
   height: 100%;
 }
 /* line 4, ../assets/sass/partials/contact/_contact.scss */
