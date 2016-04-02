@@ -18,7 +18,7 @@
 	<div id="farmco-home">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3 col-xs-4 farmco-home-links">
+				<div class="col-sm-3 col-xs-6 farmco-home-links">
 					<ul class="links-left">
 						<li><a href="http://agriculture.newholland.com/us/en/Pages/homepage.aspx" target="_blank">New Holland	</a></li>
 			    		<li><a href="http://www.cubcadet.ca" target="_blank">Cub Cadet</a></li>

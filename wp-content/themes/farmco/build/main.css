@@ -8820,14 +8820,17 @@ body #farmco-home {
 /* line 4, ../assets/sass/partials/_index.scss */
 body #farmco-home .farmco-home-links {
   background-color: #fafafa;
-  padding-top: 30px;
 }
 /* line 8, ../assets/sass/partials/_index.scss */
-body #farmco-home .farmco-home-links .links-left li {
-  list-style-type: none;
-  padding: 4px 0;
+body #farmco-home .farmco-home-links .links-left ul {
+  padding-top: 10px;
 }
 /* line 11, ../assets/sass/partials/_index.scss */
+body #farmco-home .farmco-home-links .links-left li {
+  list-style-type: none;
+  padding: 4px;
+}
+/* line 14, ../assets/sass/partials/_index.scss */
 body #farmco-home .farmco-home-links .links-left li a {
   line-height: 2em;
   font-size: 1.1428em;
@@ -8843,7 +8846,7 @@ body #farmco-home .farmco-home-links .links-left li a:hover {
 body #farmco-home .farmco-home-links .links-left li a:active {
   color: #141414;
 }
-/* line 22, ../assets/sass/partials/_index.scss */
+/* line 25, ../assets/sass/partials/_index.scss */
 body h2 {
   font-size: 2.1428em;
   font-family: "Ubuntu", sans-serif;
@@ -8859,10 +8862,50 @@ body h2:active {
   color: #141414;
 }
 
-@media only screen and (max-width: 768px) {
-  /* line 30, ../assets/sass/partials/_index.scss */
-  body ul {
+@media (max-width: 768px) {
+  /* line 33, ../assets/sass/partials/_index.scss */
+  body #farmco-home {
+    padding-top: 50px;
+  }
+  /* line 35, ../assets/sass/partials/_index.scss */
+  body #farmco-home .farmco-home-links {
+    background-color: transparent;
+    color: #050505;
+  }
+  /* line 39, ../assets/sass/partials/_index.scss */
+  body #farmco-home .farmco-home-links .links-left ul {
     padding-left: 0px;
+  }
+  /* line 41, ../assets/sass/partials/_index.scss */
+  body #farmco-home .farmco-home-links .links-left ul:hover {
+    text-shadow: 0 0 6px #5050ff;
+  }
+  /* line 45, ../assets/sass/partials/_index.scss */
+  body #farmco-home .farmco-home-links .links-left li {
+    list-style-type: none;
+    padding: 4px;
+    margin-top: 2px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  /* line 50, ../assets/sass/partials/_index.scss */
+  body #farmco-home .farmco-home-links .links-left li a {
+    line-height: 2em;
+    font-size: 1.1428em;
+    font-family: "Raleway", sans-serif;
+    line-height: 1em;
+    color: #050505;
+  }
+  /* line 27, ../assets/sass/modules/_mixins.scss */
+  body #farmco-home .farmco-home-links .links-left li a:hover {
+    color: #0f0f0f;
+  }
+  /* line 28, ../assets/sass/modules/_mixins.scss */
+  body #farmco-home .farmco-home-links .links-left li a:active {
+    color: #141414;
+  }
+  /* line 54, ../assets/sass/partials/_index.scss */
+  body #farmco-home .farmco-home-links .links-left li:hover {
+    background-color: rgba(100, 100, 255, 0.6);
   }
 }
 /* line 1, ../assets/sass/partials/equipment/_equipment.scss */
@@ -9040,7 +9083,7 @@ body h2:active {
 
 /* line 1, ../assets/sass/partials/parts/_parts.scss */
 #parts {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 /* line 1, ../assets/sass/partials/header/_navbar.scss */

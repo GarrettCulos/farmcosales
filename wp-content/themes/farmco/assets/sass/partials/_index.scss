@@ -10,7 +10,7 @@ body {
 				}
 				li {
 					list-style-type: none;
-					padding:4px 0;
+					padding:4px;
 					a {
 						line-height:2em;
 						@include m-body-font;
@@ -28,10 +28,35 @@ body {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	body {
-		ul{
-			padding-left:0px;
+		#farmco-home {
+			padding-top:50px;
+			.farmco-home-links{
+				background-color:transparent;
+				color:$body-color;
+				.links-left{
+					ul{
+						padding-left:0px;
+						&:hover{
+							text-shadow:0 0 6px $blue;
+						}
+					}
+					li {
+						list-style-type: none;
+						padding:4px;
+						margin-top:2px;
+						background-color:rgba(255,255,255,0.6);
+						a {
+							line-height:2em;
+							@include m-body-font;
+						}
+						&:hover{
+							background-color:rgba(100, 100, 255, 0.6);
+						}
+					}
+				}
+			}
 		}
 	}
 }
