@@ -14,7 +14,7 @@ $contact_permalink 		= get_permalink( get_page_by_path('Contact') );
 	<div class="navbar-header">
 		<nav class="main-nav navbar  navbar-fixed-top">
 			<div class="container">
-			    <div class="navbar-header visible-xs">
+			  <div class="navbar-header visible-xs">
 					<h2>Farmco</h2>
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
@@ -23,17 +23,19 @@ $contact_permalink 		= get_permalink( get_page_by_path('Contact') );
 						<span class="icon-bar"></span>
 					</button>
 				</div>
+				<div class="row">
 			  	<div class="nav-container">
 				    <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-					 	<ul class="nav navbar-nav hidden-xs">
-							<li  role="presentation" class=" "><a href="<?php echo $home_permalink  ?>">Farmco</a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li role="presentation" class=" visible-xs"><a href="<?php echo $home_permalink ?>">Home</a></li>
-							<li role="presentation" ><a href="<?php echo $parts_permalink ?>">Parts</a></li>
-							<li role="presentation" ><a href="<?php echo $equipment_permalink ?>">Equipment</a></li>
-							<li role="presentation" ><a href="<?php echo $contact_permalink ?>">Contact Us</a></li>
-						</ul>
+						 	<ul class="nav navbar-nav hidden-xs">
+								<li  role="presentation" class=" "><a href="<?php echo $home_permalink  ?>">Farmco</a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li role="presentation" class=" visible-xs"><a href="<?php echo $home_permalink ?>">Home</a></li>
+								<li role="presentation" ><a href="<?php echo $parts_permalink ?>">Parts</a></li>
+								<li role="presentation" ><a href="<?php echo $equipment_permalink ?>">Equipment</a></li>
+								<li role="presentation" ><a href="<?php echo $contact_permalink ?>">Contact Us</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

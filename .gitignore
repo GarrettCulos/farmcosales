@@ -1,6 +1,17 @@
+wp-config.php
+wp-config_local.php
+wp-content/uploads/
+
 /secure
 /cgi-bin
 /log
 /old
 /private
 /*/.sass-cache
+
+# Ignore compiled theme elements
+wp-content/themes/farmco/.sass-cache
+wp-content/themes/farmco/build
+wp-content/themes/farmco/config
+wp-content/themes/farmco/bower_components
+wp-content/themes/farmco/node_modules

@@ -5,6 +5,7 @@ body {
 			background-color:$background-color;
 			
 			.links-left {
+				padding:0;
 				ul{
 					padding-top:10px;
 				}
@@ -25,7 +26,6 @@ body {
 	h2{
 		@include m-title-font;
 	}
-
 }
 
 @media (max-width: 768px) {
