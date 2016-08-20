@@ -11,7 +11,6 @@ wp-content/uploads/
 
 # Ignore compiled theme elements
 wp-content/themes/farmco/.sass-cache
-wp-content/themes/farmco/build
 wp-content/themes/farmco/config
 wp-content/themes/farmco/bower_components
 wp-content/themes/farmco/node_modules

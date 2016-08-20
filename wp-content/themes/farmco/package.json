@@ -1,9 +1,9 @@
 {
-  "name": "hlander",
+  "name": "farmcosales",
   "version": "1.0.0",
-  "description": "Canadian Highlander Wordpress Theme",
+  "description": "Farmcosales wordpress",
   "repository": "",
-  "author": "GarrettCulos",
+  "author": "Garrett Culos",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
