@@ -15,8 +15,13 @@ body {
 					a {
 						line-height:2em;
 						@include m-body-font;
+						&.important{
+							font-size:1.3em;
+							font-weight:900;
+						}
 					}
 				}
+
 			}
 		}
 	}

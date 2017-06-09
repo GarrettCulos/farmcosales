@@ -20,11 +20,12 @@
 			<div class="row">
 				<div class="col-sm-3 col-xs-6 farmco-home-links">
 					<ul class="links-left">
-						<li><a href="http://agriculture.newholland.com/us/en/Pages/homepage.aspx" target="_blank">New Holland	</a></li>
-			    		<li><a href="http://www.cubcadet.ca" target="_blank">Cub Cadet</a></li>
+						<li><a class="important" href="http://agriculture.newholland.com/us/en/Pages/homepage.aspx" target="_blank"><b>New Holland</b></a></li>
+			    		<li><a class="important" href="http://www.cubcadet.ca" target="_blank"><b>Cub Cadet</b></a></li>
 				    	<li><a href="http://www.woodsequipment.com/productsMain.aspx" target="_blank">Woods</a></li>
 			    		<li><a href="http://www.bluelinemfg.com/Manufacturing.html"target="_blank">BlueLine Sprayers</a></li>
-						<li><a href="http://www.vanwamel.nl/English/fruitteelt_home.htm" target=”_blank”> Perfect</a></li>
+						<li><a class="important" href="http://www.vanwamel.nl/English/fruitteelt_home.htm" target=”_blank”> <b>Perfect</b></a></li>
+						<li><b>Turbmatic</b></li>
 						<li><a href="http://www.viconspreadingcharts.com/en-Metric/Home/VICON" target="_blank"> Vicon </a></li>
 						<li><a href="http://www.caroni.it/inglese/mac_agricoli/welcome.html"  target="_blank"> Caroni</a> </li>
 						<li><a href="http://www.embmfg.com/" target=”_blank”> Wallenstein</a> </li>

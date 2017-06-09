@@ -8850,7 +8850,12 @@ body #farmco-home .farmco-home-links .links-left li a:hover {
 body #farmco-home .farmco-home-links .links-left li a:active {
   color: #141414;
 }
-/* line 26, ../assets/sass/partials/_index.scss */
+/* line 18, ../assets/sass/partials/_index.scss */
+body #farmco-home .farmco-home-links .links-left li a.important {
+  font-size: 1.3em;
+  font-weight: 900;
+}
+/* line 31, ../assets/sass/partials/_index.scss */
 body h2 {
   font-size: 2.1428em;
   font-family: "Ubuntu", sans-serif;
@@ -8867,31 +8872,31 @@ body h2:active {
 }
 
 @media (max-width: 768px) {
-  /* line 33, ../assets/sass/partials/_index.scss */
+  /* line 38, ../assets/sass/partials/_index.scss */
   body #farmco-home {
     padding-top: 50px;
   }
-  /* line 35, ../assets/sass/partials/_index.scss */
+  /* line 40, ../assets/sass/partials/_index.scss */
   body #farmco-home .farmco-home-links {
     background-color: transparent;
     color: #050505;
   }
-  /* line 39, ../assets/sass/partials/_index.scss */
+  /* line 44, ../assets/sass/partials/_index.scss */
   body #farmco-home .farmco-home-links .links-left ul {
     padding-left: 0px;
   }
-  /* line 41, ../assets/sass/partials/_index.scss */
+  /* line 46, ../assets/sass/partials/_index.scss */
   body #farmco-home .farmco-home-links .links-left ul:hover {
     text-shadow: 0 0 6px #5050ff;
   }
-  /* line 45, ../assets/sass/partials/_index.scss */
+  /* line 50, ../assets/sass/partials/_index.scss */
   body #farmco-home .farmco-home-links .links-left li {
     list-style-type: none;
     padding: 4px;
     margin-top: 2px;
     background-color: rgba(255, 255, 255, 0.6);
   }
-  /* line 50, ../assets/sass/partials/_index.scss */
+  /* line 55, ../assets/sass/partials/_index.scss */
   body #farmco-home .farmco-home-links .links-left li a {
     line-height: 2em;
     font-size: 1.1428em;
@@ -8907,7 +8912,7 @@ body h2:active {
   body #farmco-home .farmco-home-links .links-left li a:active {
     color: #141414;
   }
-  /* line 54, ../assets/sass/partials/_index.scss */
+  /* line 59, ../assets/sass/partials/_index.scss */
   body #farmco-home .farmco-home-links .links-left li:hover {
     background-color: rgba(100, 100, 255, 0.6);
   }
